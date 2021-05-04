@@ -15,8 +15,9 @@
     <div id="app">
         <div class="container-list">
             <div class="box1">
-                <h1> {{ email }} </h1>
-                <!-- <button @click="clickEmail"></button> -->
+                <ul>
+                    <li v-for="mail in email"> {{ mail }} </li>
+                </ul>
             </div>
         </div>
     </div>
